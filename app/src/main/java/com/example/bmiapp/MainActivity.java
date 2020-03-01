@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         }else{
             bmiLabel="obese class III";
         }
-        bmiLabel= bmi + "\n" + bmiLabel;
+        bmiLabel= "BMI:"+bmi + "\n" + bmiLabel;
         result.setText(bmiLabel);
 
     }
